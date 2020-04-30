@@ -1,22 +1,18 @@
 import React from "react";
-import { HashRouter, Route, Link, Switch, NavLink } from "react-router-dom";
+import { HashRouter, Route, Switch, NavLink } from "react-router-dom";
+import { Link } from "react-scroll";
 
 const Navigation = (props) => {
   return (
-    <HashRouter>
-      <NavLink to="/start/zaloguj">Zaloguj</NavLink> |{" "}
-      <NavLink to="/start/konto">Założ konto</NavLink> |{" "}
-      <NavLink to="/start/start">Start</NavLink> |{" "}
-      <NavLink to="/start/o-co-chodzi">O co chodzi?</NavLink> |{" "}
-      <NavLink to="/start/o-nas">o nas</NavLink> |
-      <NavLink to="/start/fundacja">Fundacja i organizacje</NavLink>|
-      <NavLink to="/start/kontakt">Kontakt</NavLink>|
-      <NavLink to="/start/wyloguj">wyoguj się</NavLink>|
-      <Switch>
-        <Route path="/start/" />
-        {/* <Route path="/checkage/" component={Checkage} /> */}
-      </Switch>
-    </HashRouter>
+    <nav>
+      <NavLink to="/start/zaloguj">Zaloguj</NavLink>
+      <NavLink to="/start/konto">Założ konto</NavLink>
+      <NavLink to="/">Start</NavLink>
+      <Link to="o-co-chodzi">O co chodzi?</Link>
+      <Link to="o-nas">o nas</Link>
+      <Link to="fundacja">Fundacja i organizacje</Link>
+      <Link to="kontakt">Kontakt</Link>
+    </nav>
   );
 };
 export default Navigation;

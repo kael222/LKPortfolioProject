@@ -1,11 +1,11 @@
 import React from "react";
-import { HashRouter, Route, Link, Switch, NavLink } from "react-router-dom";
+import HomeHeader from "./HomeHeader";
 
-const Part1 = (props) => {
+const Home = (props) => {
   return (
     <section>
-      <h1>Atrapa</h1>
+      <HomeHeader />
     </section>
   );
 };
-export default Part1;
+export default Home;
