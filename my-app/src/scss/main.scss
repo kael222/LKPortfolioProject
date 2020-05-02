@@ -1,18 +1,15 @@
 * {
-  background-color: yellow;
+  margin: 0;
+  box-sizing: border-box;
 }
-img {
-  background-image: url("./../assets/Home-Hero-Image.jpg");
-  width: 200px;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
+.container {
+  width: 1024px;
+  margin: auto;
 }
-.ozdoba {
-  width: 10vw;
-  height: 10vh;
-  background-image: url("./../assets/Decoration.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+@import "./HomeHeader.scss";
+@import "./Statistic.scss";
+@import "./FourSteps.scss";
+@import "./variables.scss";
+@import "./AboutUs.scss";
+@import "./OurMission.scss";
+@import "./FormFooter.scss";

@@ -2,7 +2,7 @@ import React from "react";
 
 const Statistic = (props) => {
   return (
-    <section>
+    <section className="threeColumns">
       <div>
         <h1>10</h1>
         <h2>Lorem ipsum dolor sit.</h2>

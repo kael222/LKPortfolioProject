@@ -2,10 +2,10 @@ import React from "react";
 
 const OurMission = () => (
   <>
-    <section>
+    <section className="ourMission">
       <div>
         <h1>Komu pomagamy</h1>
-        <div>szlaczek</div>
+        <div className="decoration"></div>
         <button>Fundacjom</button>
         <button>Organizacjom pozarządowym</button>
         <button>Lokalnym zbiórkom</button>
@@ -18,8 +18,10 @@ const OurMission = () => (
     </section>
     <section>
       <div>
-        <h1>Organizacja "Pomóż naleśnikowi"</h1>
-        <span>Lorem ipsum dolor sit.</span>
+        <div className="spans">
+          <h1>Organizacja "Pomóż naleśnikowi"</h1>
+          <span>Lorem ipsum dolor sit.</span>
+        </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
           libero?
@@ -27,8 +29,10 @@ const OurMission = () => (
         <hr />
       </div>
       <div>
-        <h1>Organizacja "Pomóż pomagającym"</h1>
-        <span>Lorem ipsum dolor sit.</span>
+        <div className="spans">
+          <h1>Organizacja "Pomóż pomagającym"</h1>
+          <span>Lorem ipsum dolor sit.</span>
+        </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
           libero?
@@ -36,15 +40,20 @@ const OurMission = () => (
         <hr />
       </div>
       <div>
-        <h1>Orgaizacja "Pomóż Scarlet"</h1>
-        <span>Lorem ipsum dolor sit.</span>
+        <div className="spans">
+          <h1>Orgaizacja "Pomóż Scarlet"</h1>
+          <span>Lorem ipsum dolor sit.</span>
+        </div>
+
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
           libero?
         </p>
       </div>
-      <button>1</button>
-      <button>2</button>
+      <div className="ourbuttons">
+        <button>1</button>
+        <button>2</button>
+      </div>
     </section>
   </>
 );

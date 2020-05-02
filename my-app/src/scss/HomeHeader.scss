@@ -1,0 +1,37 @@
+.nav1 {
+  padding: 1vw;
+  text-align: right;
+  a {
+    margin: 1vw;
+    font-size: 1rem;
+  }
+}
+
+.headerSection {
+  display: flex;
+  flex-direction: row;
+  img {
+    width: 50%;
+    height: 60vh;
+    background-image: url("./../assets/Home-Hero-Image.jpg");
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+  }
+  section {
+    margin: auto;
+    text-align: center;
+
+    button {
+      text-align: center;
+      font-size: 1rem;
+      letter-spacing: 0;
+      color: #3c3c3c;
+      background-color: transparent;
+      opacity: 1;
+      height: 3rem;
+      width: 12vw;
+      margin: auto;
+    }
+  }
+}

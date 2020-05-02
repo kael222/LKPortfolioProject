@@ -1,13 +1,11 @@
 import React from "react";
-import logo from "./logo.svg";
-import "./App.css";
-import { HashRouter, Route, Link, Switch, NavLink } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import Logout from "./components/Logout";
 import Login from "./components/Login";
 import Home from "./components/Home";
 import "./scss/main.scss";
 
-const App = (props) => {
+const App = () => {
   return (
     <>
       <HashRouter>
@@ -20,8 +18,5 @@ const App = (props) => {
     </>
   );
 };
-// function App() {
-//   return <div>eukaliptus</div>;
-// }
 
 export default App;

@@ -1,0 +1,17 @@
+.threeColumns {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+  div {
+    text-align: center;
+    margin: 3vw;
+    font-size: 0.7em;
+    h1 {
+      font-size: 6em;
+    }
+    h2 {
+      padding: 1vh;
+    }
+  }
+}

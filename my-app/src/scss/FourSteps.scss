@@ -1,0 +1,40 @@
+@import "./variables.scss";
+
+.fourSteps {
+  flex-direction: row;
+  text-align: center;
+  height: 50vh;
+  margin: auto;
+  margin-top: 5vh;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  background: #f0f1f1 0% 0% no-repeat padding-box;
+  width: 100%;
+  div {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    margin: 5%;
+    img {
+      background-image: url(./../assets/Icon-1.svg);
+      width: 10vh;
+      height: 10vh;
+      background-repeat: no-repeat;
+      background-color: transparent;
+      background-size: contain;
+    }
+  }
+}
+button {
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0;
+  color: #3c3c3c;
+  background-color: transparent;
+  opacity: 1;
+  height: 3rem;
+  width: 12vw;
+  margin: auto;
+}

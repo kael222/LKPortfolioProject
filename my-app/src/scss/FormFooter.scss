@@ -1,0 +1,14 @@
+.footers {
+  height: 80vh;
+  display: flex;
+
+  background-image: url(./../assets/Background-Contact-Form.jpg);
+  background-repeat: no-repeat;
+  background-color: transparent;
+  background-size: cover;
+  opacity: 1;
+  .forms {
+    width: 30%;
+    margin-left: auto;
+  }
+}
