@@ -14,7 +14,7 @@ const SignupForm = () => {
   });
   return (
     <>
-      <section className="footers">
+      <section id="kontakt" className="footers" id="kontakt">
         {" "}
         {/* <div className="background"></div> */}
         <div className="forms">

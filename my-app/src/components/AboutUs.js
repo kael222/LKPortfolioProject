@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutUs = () => (
   <>
-    <section className="aboutUs">
+    <section id="o-nas" className="aboutUs">
       <div>
         <h1>O nas</h1>
         <img className="decoration"></img>
